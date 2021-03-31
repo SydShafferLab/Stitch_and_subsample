@@ -65,7 +65,7 @@ You will then be prompted to identify the same cells in the middle image (left) 
 
 ![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/enter_overlap_numbers.png)
 
-You will then enter the vertical and horizontal pixel overlaps. Our scans were originally 1028x1028 pixels, were downsized by a factor of 4, and had an overlap of 10%. Therefore, our overlap was 26 pixels in each direction.  
+You will then enter the vertical and horizontal pixel overlaps. Our scans were originally 1028x1028 pixels, were downsized by a factor of 4, and had an overlap of 10%. Therefore, our overlap was 26 pixels in each direction. For our files, you should enter the overlaps in the "Column X Overlaps" and "Row Y Overlaps". 
 
 #### Output
 The actual stitching will now be done. It may take some time. For each scan, the code will save the:
