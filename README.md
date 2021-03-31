@@ -15,7 +15,7 @@ stitch_and_subsample(<path_to_folder_with_scans_in_quotes>)
 ### Downsizing the images
 You will be asked how many pixels you would like to downsample each image by. 
 
-INSERT THE IMAGE HERE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/downsize.png)
 
 This will result in a folder called "downsized_images" within the original folder. 
 
@@ -23,27 +23,27 @@ This will result in a folder called "downsized_images" within the original folde
 
 Here we will have to insert a couple of scan parameters. You will first be prompted to ask whether all of the scans have the same channel wavelength assignment. If they came off of our scope, they should so select "Yes, all do.".
 
-INSERT THE IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/channel_and_wavelength_assignment.png)
 
 You will then be asked what each wavelength is. The code should automatically recognize each channel and place that in the header. Just type the same color as in each header.
 
-INSERT THE IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/Enter_channel_for_Each_Wavelength.png)
 
 You will then be asked if all of the scans have the same size, which they should. So select "Yes, all do.".
 
-INSERT THE IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/set_scan_size.png)
 
 You will then be asked what the size of the scan is. In the example here, the scan is 40 by 40.
 
-INSERT THE IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/enter_tile_dimensions.png)
 
 You will then be asked whether all scans have the same alignment. In our scans, there is only one scan so we will select "Yes, all do."
 
-INSERT THE IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/scan_alignment.png)
 
-You will then be asked how wwe want to align the images. There are a few options:
+You will then be asked how we want to align the images. There are a few options:
 
-INSERT THE IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/scan_alignment_choice.png)
 
 - "Automatically" will align the images wihtout any input from you. This works well if there are cells in individual images.
 - "Manually" will allow the user to align the images using the middle position of the scan. This works very well if there are a lot of cells at the center of your scan.
@@ -51,19 +51,19 @@ INSERT THE IMAGE
 
 #### Manually
 
-INSERT IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/scan_alignment_manual.png)
 
 You will then be prompted to identify the same cells in the middle image (left) and the image below (right). User the cursor to click on which cells are the same in the two images. Close the window when you are done. The more cells you select, the more accurate the alignment will be, but 3 cells is usually plenty.
 
-INSERT IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/manual_align_top_bottom.png)
 
 You will then be prompted to identify the same cells in the middle image (left) and the image to the right (right). Use the cursor to click on which cells are the same in the two images. Close the window when you are done.
 
-INSERT IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/manual_align_left_right.png)
 
 #### Entering the pixel overlaps
 
-INSERT IMAGE
+![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/enter_overlap_numbers.png)
 
 You will then enter the vertical and horizontal pixel overlaps. Our scans were originally 1028x1028 pixels, were downsized by a factor of 4, and had an overlap of 10%. Therefore, our overlap was 26 pixels in each direction.  
 
