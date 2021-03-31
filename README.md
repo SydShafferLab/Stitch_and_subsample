@@ -4,7 +4,7 @@ This code was adapted from the Raj Lab colonycounting_v2 software (https://githu
 
 ## Setting up your data
 - This data assumes that all images from a scan are within the same folder. 
-- Make sure the images were taken in snake format
+- Make sure the images were taken in snake format (like below)
   - [1 2 3]
   - [6 5 4]
   - [7 8 9]
