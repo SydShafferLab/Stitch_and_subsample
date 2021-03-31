@@ -3,7 +3,7 @@ function stitch_info = get_scan_dimensions(stitch_info)
     % ask user if any scans have the same dimensions:
     question = 'Do any scans have the same sizes?';
     title = 'Set Scan Size';
-    answer = questdlg(question, title, 'Yes, all do.', 'Yes, all in a folder do.', 'No, none do.', 'Yes, all do.');
+    answer = questdlg(question, title, 'Yes, all do.', 'No, none do.', 'Yes, all do.');
      
     % if all scans have the same sizes:
     if strcmp(answer, 'Yes, all do.')
@@ -16,13 +16,6 @@ function stitch_info = get_scan_dimensions(stitch_info)
     % for each folder:
     for i = 1:numel(stitch_info)
        
-        % if all scans in the folder have the same sizes:
-        if strcmp(answer, 'Yes, all in a folder do.')
-
-            % get scan size:
-            [num_rows, num_columns] = stitch_and_subsample.stitch_all_scans.get_scan_dimensions.enter_scan_dimensions(stitch_info(i).path_folder, 'ALL SCANS');
-
-        end
         
         % for each scan:
         for j = 1:numel(stitch_info(i).scan_info)
