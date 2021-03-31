@@ -4,6 +4,10 @@ This code was adapted from the Raj Lab colonycounting_v2 software (https://githu
 
 ## Setting up your data
 - This data assumes that all images from a scan are within the same folder. 
+- Make sure the images were taken in snake format
+  - [1 2 3]
+  - [6 5 4]
+  - [7 8 9]
 - Make sure to do the nd2toTiff code including the 'nDigits' = 4 code argument. I did this to make sure that the number in the file names are always the same length even if you go above 33x33 scans. 
 
 ## Running the code
