@@ -3,6 +3,7 @@
 This code was adapted from the Raj Lab colonycounting_v2 software (https://github.com/arjunrajlaboratory/colonycounting_v2). Changes were made to make the code applicable with the output of our images coming off of the scope (snake imaging, channel naming convention, etc.)
 
 ## Setting up your data
+- Add the "Stitch_and_subsample_ folder and all subdirectories to your MATLAB path
 - This data assumes that all images from a scan are within the same folder. 
 - Make sure the images were taken in snake format (like below)
   - [1 2 3]
@@ -17,7 +18,7 @@ stitch_and_subsample(<path_to_folder_with_scans_in_quotes>)
 ```
 ## Addressing prompts from the code
 ### Downsizing the images
-You will be asked how many pixels you would like to downsample each image by. 
+You will be asked how many pixels you would like to downsample each image by. If you do not want your images downsized, tell it to downsize by a factor of 1.  
 
 ![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/downsize.png)
 
