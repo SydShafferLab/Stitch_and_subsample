@@ -1,6 +1,5 @@
 %% readmm
 % Reads MetaMorph stk files or .tif/.tiff files
-% From the RajLabImageTools
 
 %% Input
 % *|infile|* - filename or full filepath string of the image stack
