@@ -18,7 +18,7 @@ stitch_and_subsample(<path_to_folder_with_scans_in_quotes>)
 ```
 ## Addressing prompts from the code
 ### Downsizing the images
-You will be asked how many pixels you would like to downsample each image by. 
+You will be asked how many pixels you would like to downsample each image by. If you do not want your images downsized, tell it to downsize by a factor of 1.  
 
 ![alt text](https://github.com/dylanschaff/Stitch_and_subsample/blob/main/README_screenshots/downsize.png)
 
