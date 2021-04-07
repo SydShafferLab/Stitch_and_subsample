@@ -4,6 +4,7 @@ This code was adapted from the Raj Lab colonycounting_v2 software (https://githu
 
 ## Setting up your data
 - Add the "Stitch_and_subsample_ folder and all subdirectories to your MATLAB path
+- YOu will need to download the MATLAB Image Processing Toolbox and Mapping Toolbox
 - This data assumes that all images from a scan are within the same folder. 
 - Make sure the images were taken in snake format (like below)
   - [1 2 3]
